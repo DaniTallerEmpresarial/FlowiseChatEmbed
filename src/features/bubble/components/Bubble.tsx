@@ -66,7 +66,7 @@ export const Bubble = (props: BubbleProps) => {
           right: `${Math.min(buttonPosition().right, window.innerWidth - 410)}px`,
         }}
         class={
-          `fixed sm:right-5 rounded-lg w-full sm:w-[400px] max-h-[704px]` +
+          `container-chatbot fixed sm:right-5 rounded-lg w-full sm:w-[400px] max-h-[704px]` +
           (isBotOpened() ? ' opacity-1' : ' opacity-0 pointer-events-none') +
           ` bottom-${chatWindowBottom}px`
         }

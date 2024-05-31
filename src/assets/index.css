@@ -436,3 +436,12 @@ textarea {
   padding: 10px 10px;
   font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (max-width: 450px) {
+  .container-chatbot{
+    width: 90%!important;
+    right: 0px !important;
+    left: 15px !important;
+    height: 70% !important;
+  }
+}
